@@ -19,7 +19,7 @@ param_grid = {
     'n_estimators': [50, 100, 150],  # Jumlah pohon
     'max_depth': [None, 10, 20, 30],  # Kedalaman maksimum pohon
     'min_samples_split': [2, 5, 10],  # Jumlah minimum sampel yang diperlukan untuk membagi node
-    'min_samples_leaf': [1, 2, 4],    # Jumlah minimum sampel yang diperlukan untuk menjadi daun
+    'min_samples_leaf': [1, 2, 4],    # Jumlah minimum sampel yang diperlukan untuk menjadi dau
 }
 
 # Membuat model Random Forest
