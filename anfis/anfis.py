@@ -179,7 +179,7 @@ def forwardHalfPass(ANFISObj, Xs):
 
         #layer two
         miAlloc = [[layerOne[x][ANFISObj.rules[row][x]] for x in range(len(ANFISObj.rules[0]))] for row in range(len(ANFISObj.rules))]
-        layerTwo = np.array([np.product(x) for x in miAlloc]).T
+        layerTwo = np.array([np.prod(x) for x in miAlloc]).T
         if pattern == 0:
             w = layerTwo
         else:
